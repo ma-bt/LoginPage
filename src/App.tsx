@@ -31,7 +31,7 @@ function App() {
               {<TablePage />}
             </PrivateRoute>
           } />
-          <Route path={'/LoginPage'} element=
+          <Route path={'/'} element=
 
             {<LoginPage />}
           />
