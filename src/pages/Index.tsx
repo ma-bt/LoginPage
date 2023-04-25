@@ -1,21 +1,21 @@
-import {
-    Image,
-    Box,
-    Center,
-    Text,
-    Code,
-    Alert,
-    AlertIcon,
-    AlertTitle,
-    AlertDescription,
-    Kbd,
-  } from '@chakra-ui/react';
-  import { VStack } from '@chakra-ui/layout';
+// import {
+//     Image,
+//     Box,
+//     Center,
+//     Text,
+//     Code,
+//     Alert,
+//     AlertIcon,
+//     AlertTitle,
+//     AlertDescription,
+//     Kbd,
+//   } from '@chakra-ui/react';
+//   import { VStack } from '@chakra-ui/layout';
 
-  function Index() {
-    return (
-      
-    );
-  }
+//   function Index() {
+//     return (
 
-  export default Index;
+//     )
+//   }
+
+//   export default Index;
