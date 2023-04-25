@@ -5,6 +5,8 @@
   "description": "Scaffolded using create-rara-app",
   "scripts": {
     "start": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "concurrently \"yarn start\" \"yarn graphql:codegen\"",
     "build": "tsc && vite build",
     "serve": "vite preview",
@@ -19,8 +21,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.1",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@hookform/resolvers": "^3.1.0",
