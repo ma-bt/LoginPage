@@ -8,9 +8,9 @@ export const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   const navigate = useNavigate()
   if (!token) {
     return (
-      <Navigate to="/" />
+      <Navigate to="/LoginPage" />
     )
-   
+
 
   }
   return (
